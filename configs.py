@@ -9,8 +9,8 @@ class DefaultConfigs(object):
     max_len = 275
 
     train = True
-    continue_train = True
-    trn_fold = [4]
+    continue_train = False
+    trn_fold = [0,1,2,3,4]
 
     # model
     model_name = 'tf_efficientnet_b4_ns' # [efficientnet_b3, resnet34]
